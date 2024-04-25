@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+</head>
+<body>
+    <form id="add_user" action="/users/add" method="POST">
+        <div class="group">
+            <input type="text" name="first_name" placeholder="Имя" required>
+        </div>
+        <div class="group">
+            <input type="text" name="last_name" placeholder="Фамилия" required>
+        </div>
+        <div class="group">
+            <button>Добавить</button>
+        </div>
+    </form>
+    <script src="/client.js"></script>
+</body>
+</html>
